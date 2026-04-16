@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "John Doe",
-    "picture": "https://example.com/photo1.jpg",
+    "picture": "https://randomuser.me/api/portraits/men/31.jpg",
     "email": "john@example.com",
     "days_since_contact": 12,
     "status": "overdue",
@@ -14,7 +14,7 @@
   {
     "id": 2,
     "name": "Sarah Smith",
-    "picture": "https://example.com/photo2.jpg",
+    "picture": "https://randomuser.me/api/portraits/men/32.jpg",
     "email": "sarah@example.com",
     "days_since_contact": 5,
     "status": "active",
@@ -26,7 +26,7 @@
   {
     "id": 3,
     "name": "Michael Brown",
-    "picture": "https://example.com/photo3.jpg",
+    "picture": "https://randomuser.me/api/portraits/men/33.jpg",
     "email": "michael@example.com",
     "days_since_contact": 20,
     "status": "overdue",
@@ -38,7 +38,7 @@
   {
     "id": 4,
     "name": "Emily Davis",
-    "picture": "https://example.com/photo4.jpg",
+    "picture": "https://randomuser.me/api/portraits/men/34.jpg",
     "email": "emily@example.com",
     "days_since_contact": 2,
     "status": "active",
@@ -50,7 +50,7 @@
   {
     "id": 5,
     "name": "David Wilson",
-    "picture": "https://example.com/photo5.jpg",
+    "picture": "https://randomuser.me/api/portraits/men/35.jpg",
     "email": "david@example.com",
     "days_since_contact": 9,
     "status": "pending",
@@ -62,7 +62,7 @@
   {
     "id": 6,
     "name": "Sophia Taylor",
-    "picture": "https://example.com/photo6.jpg",
+    "picture": "https://randomuser.me/api/portraits/men/36.jpg",
     "email": "sophia@example.com",
     "days_since_contact": 3,
     "status": "active",
@@ -74,7 +74,7 @@
   {
     "id": 7,
     "name": "James Anderson",
-    "picture": "https://example.com/photo7.jpg",
+    "picture": "https://randomuser.me/api/portraits/men/37.jpg",
     "email": "james@example.com",
     "days_since_contact": 18,
     "status": "overdue",
@@ -86,7 +86,7 @@
   {
     "id": 8,
     "name": "Olivia Martinez",
-    "picture": "https://example.com/photo8.jpg",
+    "picture": "https://randomuser.me/api/portraits/women/35.jpg",
     "email": "olivia@example.com",
     "days_since_contact": 7,
     "status": "pending",
@@ -98,7 +98,7 @@
   {
     "id": 9,
     "name": "William Garcia",
-    "picture": "https://example.com/photo9.jpg",
+    "picture": "https://randomuser.me/api/portraits/men/39.jpg",
     "email": "william@example.com",
     "days_since_contact": 1,
     "status": "active",
@@ -110,7 +110,7 @@
   {
     "id": 10,
     "name": "Ava Rodriguez",
-    "picture": "https://example.com/photo10.jpg",
+    "picture": "https://randomuser.me/api/portraits/men/40.jpg",
     "email": "ava@example.com",
     "days_since_contact": 11,
     "status": "overdue",
@@ -122,7 +122,7 @@
   {
     "id": 11,
     "name": "Benjamin Lee",
-    "picture": "https://example.com/photo11.jpg",
+    "picture": "https://randomuser.me/api/portraits/men/41.jpg",
     "email": "benjamin@example.com",
     "days_since_contact": 6,
     "status": "pending",
@@ -134,7 +134,7 @@
   {
     "id": 12,
     "name": "Mia Walker",
-    "picture": "https://example.com/photo12.jpg",
+    "picture": "https://randomuser.me/api/portraits/women/45.jpg",
     "email": "mia@example.com",
     "days_since_contact": 4,
     "status": "active",
@@ -146,7 +146,7 @@
   {
     "id": 13,
     "name": "Lucas Hall",
-    "picture": "https://example.com/photo13.jpg",
+    "picture": "https://randomuser.me/api/portraits/men/43.jpg",
     "email": "lucas@example.com",
     "days_since_contact": 15,
     "status": "overdue",
@@ -158,7 +158,7 @@
   {
     "id": 14,
     "name": "Charlotte Allen",
-    "picture": "https://example.com/photo14.jpg",
+    "picture": "https://randomuser.me/api/portraits/men/44.jpg",
     "email": "charlotte@example.com",
     "days_since_contact": 8,
     "status": "pending",
@@ -170,7 +170,7 @@
   {
     "id": 15,
     "name": "Henry Young",
-    "picture": "https://example.com/photo15.jpg",
+    "picture": "https://randomuser.me/api/portraits/women/45.jpg",
     "email": "henry@example.com",
     "days_since_contact": 2,
     "status": "active",

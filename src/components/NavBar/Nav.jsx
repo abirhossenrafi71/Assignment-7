@@ -11,7 +11,7 @@ const Nav = () => {
   const getStyles = (path) => {
     const isActive = currentPath === path;
     const base =
-      "font-medium transition-all duration-300 p-2 md:px-4 md:py-1.5 rounded-lg flex flex-col md:flex-row items-center gap-1 md:gap-2";
+      "font-medium transition-all duration-300 p-2 md:px-4 md:py-1.5 rounded-lg flex items-center gap-1 md:gap-2";
     const active = "text-white bg-[#244d44]";
     const inactive = "text-slate-500 hover:text-[#244d44] bg-transparent";
 
@@ -20,7 +20,7 @@ const Nav = () => {
 
   return (
     <>
-      <header className="fixed top-0 left-0 right-0 z-50 bg-white border-b border-gray-100">
+      <header className="fixed top-0 left-0 right-0 z-50 bg-white border-b border-gray-100 pt-5 pb-5">
         <div className="container mx-auto px-4 md:px-10">
           <div className="flex items-center justify-between h-14 md:h-16">
             <Link
@@ -30,7 +30,7 @@ const Nav = () => {
               Keen<span className="text-[#244d44]">Keeper</span>
             </Link>
 
-            <div className="hidden md:flex items-center gap-6">
+            <div className=" flex items-center gap-6">
               <Link to="/home" className={getStyles("/home")}>
                 <IoHomeOutline className="text-lg" />
                 <span>Home</span>
@@ -47,27 +47,6 @@ const Nav = () => {
           </div>
         </div>
       </header>
-
-      <nav className="fixed bottom-0 left-0 right-0 z-50 bg-white border-t border-gray-200 md:hidden">
-        <div className="container mx-auto">
-          <div className="flex items-center justify-around h-16 px-4">
-            <Link to="/home" className={getStyles("/home")}>
-              <IoHomeOutline className="text-2xl" />
-              <span className="text-[10px] font-bold">Home</span>
-            </Link>
-            <Link to="/timeline" className={getStyles("/timeline")}>
-              <RiTimeLine className="text-2xl" />
-              <span className="text-[10px] font-bold">Timeline</span>
-            </Link>
-            <Link to="/status" className={getStyles("/status")}>
-              <BiStats className="text-2xl" />
-              <span className="text-[10px] font-bold">Stats</span>
-            </Link>
-          </div>
-        </div>
-      </nav>
-
-      {/* SPACERS */}
       <div className="h-14 md:h-16"></div>
       <div className="block md:hidden h-20"></div>
     </>

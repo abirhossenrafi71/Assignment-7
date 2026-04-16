@@ -4,7 +4,6 @@ const Footer = () => {
   return (
     <footer className="w-full bg-[#1e3d33] text-white py-10 px-6 md:px-12 border-t border-white/10">
       <div className="max-w-7xl mx-auto flex flex-col items-center gap-8">
-        {/* Top Section: Branding & Slogan */}
         <div className="text-center">
           <h2 className="text-3xl md:text-4xl font-bold tracking-tight mb-3">
             KeenKeeper
@@ -15,7 +14,6 @@ const Footer = () => {
           </p>
         </div>
 
-        {/* Middle Section: Social Icons */}
         <div className="flex flex-col items-center gap-4">
           <span className="text-[10px] uppercase tracking-[0.2em] text-gray-400 font-semibold">
             Connect With Us
@@ -27,7 +25,6 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Bottom Section: Copyright & Policy */}
         <div className="w-full pt-6 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-4 text-[10px] md:text-xs text-gray-500">
           <p>© 2026 KeenKeeper. All rights reserved.</p>
           <div className="flex gap-6">
