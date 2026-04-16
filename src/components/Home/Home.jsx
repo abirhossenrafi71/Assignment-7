@@ -1,6 +1,6 @@
 import { useLoaderData, useNavigation } from "react-router";
 import { IoMdAdd } from "react-icons/io";
-//import Cards from "../Cards/Cards";
+import Cards from "../Card/Cards";
 
 const Home = () => {
   const friendsData = useLoaderData();
@@ -55,7 +55,7 @@ const Home = () => {
                 Your personal shelf of meaningful connections. Browse, tend, and
                 nurture the relationships that matter most.
               </p>
-              <button className="btn btn-primary" disabled={isLoading}>
+              <button className="btn text-white bg-[#1e3d33]" disabled={isLoading}>
                 <IoMdAdd /> Add a Friend
               </button>
             </div>
@@ -80,8 +80,8 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="max-w-7xl mx-auto p-8">
-          {/* <Cards friendsData={friendsData} /> */}
+        <div className="mx-auto">
+          <Cards friendsData={friendsData} />
         </div>
       </section>
     </div>

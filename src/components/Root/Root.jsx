@@ -33,7 +33,7 @@ const Root = () => {
       <div className="flex flex-col justify-between min-h-screen relative">
         {isLoading && (
           <div className="fixed inset-0 z-50 flex flex-col items-center justify-center bg-white/70 backdrop-blur-[2px]">
-            <span className="loading loading-spinner w-24 text-primary"></span>
+            <span className="loading loading-ring loading-xl w-24 text-primary"></span>
             <h2 className="mt-6 text-2xl z-50 font-bold text-primary animate-pulse">
               Loading Connections...
             </h2>
@@ -44,7 +44,7 @@ const Root = () => {
         <ToastContainer />
 
         <main className="flex-1 container mx-auto px-6 py-10">
-          
+
           {isLoading ? (
             <div className="w-full">
               <Skeleton height={40} width="30%" className="mb-6" />
