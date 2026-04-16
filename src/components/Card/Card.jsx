@@ -5,8 +5,8 @@ const Card = ({ data }) => {
   const { days_since_contact, name, id, picture, status, tags } = data;
 
   const statusStyles = {
-    "active": "bg-[#244D3F]",
-    "pending": "bg-[#EFAD44]",
+    "almost due": "bg-[#EFAD44]",
+    "On-track": "bg-[#244D3F]",
     overdue: "bg-red-600",
   };
 

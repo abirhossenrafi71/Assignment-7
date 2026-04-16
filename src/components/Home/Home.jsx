@@ -14,7 +14,7 @@ const Home = () => {
       id: 2,
       label: "On Track",
       value:
-        friendsData?.filter((item) => item.status === "on-track").length || 0,
+        friendsData?.filter((item) => item.status === "On-track").length || 0,
     },
     {
       id: 3,
@@ -45,7 +45,7 @@ const Home = () => {
       <section
         className={isLoading ? "opacity-30 pointer-events-none" : "opacity-100"}
       >
-        <div className="hero bg-base-200 mt-20">
+        <div className="hero bg-base-200 mt-20 p-20 rounded-2xl">
           <div className="hero-content text-center">
             <div className="max-w-full">
               <h1 className="text-4xl font-bold">
