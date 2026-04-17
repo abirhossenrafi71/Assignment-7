@@ -5,8 +5,8 @@ import './index.css'
 import Root from './components/Root/Root'
 import Home from './components/Home/Home'
 import Timeline from './components/Timeline/Timeline'
-import Status from './components/Status/Status'
 import AllUserDetails from './components/AllUserDetails/AllUserDetails';
+import Status from './components/Status/Status'
 const router = createBrowserRouter([
   {
     path: '/',
