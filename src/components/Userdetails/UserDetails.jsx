@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import { useLoaderData, useNavigate } from "react-router";
+import { useLoaderData, useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
 import { FaLongArrowAltRight, FaLongArrowAltLeft } from "react-icons/fa";
 
