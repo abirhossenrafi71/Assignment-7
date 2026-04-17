@@ -13,7 +13,7 @@ import {
   LuVideo,
 } from "react-icons/lu";
 
-const UserDetails = () => {
+const Userdetails = () => {
   const userDetails = useLoaderData();
   const navigate = useNavigate();
 
@@ -172,4 +172,4 @@ const ActionButton = ({ icon, label, onClick, color }) => (
   </button>
 );
 
-export default UserDetails;
+export default Userdetails;
