@@ -6,6 +6,7 @@ import Root from './components/Root/Root'
 import Home from './components/Home/Home'
 import Timeline from './components/Timeline/Timeline'
 import Status from './components/Status/Status'
+import UserDetails from './components/Userdetails/Userdetails';
 
 const router = createBrowserRouter([
   {
@@ -34,19 +35,19 @@ const router = createBrowserRouter([
         loader: () => fetch("/friends.json"),
         Component: Status
       },
-      // {
-      //   path: "userDetails/:userID",
-      //   loader: async ({ params }) => {
-      //     const response = await fetch("/friends.json");
-      //     const data = await response.json();
-      //     const singleUser = data.find((user) => user.id == params.userID);
-      //     if (!singleUser) {
-      //       throw new Response("User Not Found", { status: 404 });
-      //     }
-      //     return singleUser;
-      //   },
-      //   Component: UserDetails,
-      // },
+      {
+        path: "userDetails/:userID",
+        loader: async ({ params }) => {
+          const response = await fetch("/friends.json");
+          const data = await response.json();
+          const singleUser = data.find((user) => user.id == params.userID);
+          if (!singleUser) {
+            throw new Response("User Not Found", { status: 404 });
+          }
+          return singleUser;
+        },
+        Component: UserDetails,
+      },
     ]
   }
 ])
