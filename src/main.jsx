@@ -6,7 +6,7 @@ import Root from './components/Root/Root'
 import Home from './components/Home/Home'
 import Timeline from './components/Timeline/Timeline'
 import Status from './components/Status/Status'
-import UserDetails from './components/UserDetails/Useretails';
+import UserDetails from './components/Userdetails/Userdetails';
 
 const router = createBrowserRouter([
   {
