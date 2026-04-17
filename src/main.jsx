@@ -7,12 +7,12 @@ import Home from './components/Home/Home'
 import Timeline from './components/Timeline/Timeline'
 import AllUserDetails from './components/AllUserDetails/AllUserDetails';
 import Status from './components/Status/Status'
+import ErrorPage from './components/ErrorPage/ErrorPage';
 const router = createBrowserRouter([
   {
     path: '/',
     Component: Root,
-
-
+    errorElement: <ErrorPage></ErrorPage>,
     children: [
       {
         index: true,
